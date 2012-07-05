@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User:</b>
+  <%= @marker.user %>
+</p>
+
+<p>
+  <b>Tour:</b>
+  <%= @marker.tour %>
+</p>
+
+<p>
+  <b>Lat:</b>
+  <%= @marker.lat %>
+</p>
+
+<p>
+  <b>Lon:</b>
+  <%= @marker.lon %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @marker.title %>
+</p>
+
+<p>
+  <b>Descr:</b>
+  <%= @marker.descr %>
+</p>
+
+
+<%= link_to 'Edit', edit_marker_path(@marker) %> |
+<%= link_to 'Back', markers_path %>
